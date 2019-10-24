@@ -1,5 +1,6 @@
 <template lang="html">
   <div class="">
+    <h1>Fuel Usage in the UK</h1>
     <chart-component :energyData="energyData"></chart-component>
   </div>
 
@@ -36,5 +37,11 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
+body {
+  background-color: salmon;
+}
+h1 {
+  color: dodgerblue;
+}
 </style>
