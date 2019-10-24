@@ -1,15 +1,20 @@
 <template lang="html">
+  <div class="">
+    <chart-component></chart-component>
+  </div>
 
 </template>
 
 <script>
-import Chart from './components/Chart.vue'
+import ChartComponent from './components/Chart.vue'
 export default {
   data(){
+    return {
 
+    }
   },
   components: {
-    "chart": Chart
+    "chart-component": ChartComponent
   }
 }
 </script>
